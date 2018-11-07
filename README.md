@@ -28,6 +28,7 @@ Or install it yourself as:
       invoke 'npm:install'
       invoke 'bower:install'
       invoke 'grunt:task'
+      invoke 'yarn:install'
       ...
     end
   end
@@ -38,10 +39,12 @@ Or install it yourself as:
     set :npm_bin # default: 'npm'
     set :bower_bin # default: 'bower'
     set :grunt_bin # default: 'grunt'
+    set :yarn_bin # default: 'yarn'
     set :npm_options # default: '--production'
     set :bower_options # default: '--allow-root'
     set :grunt_options # default: ''
     set :grunt_task # default: 'build'
+    set :yarn_options # default: '--production'
 
 ## Contributing
 
